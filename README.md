@@ -13,6 +13,7 @@ Many people use this to enumerate subdomains.
     - [Getting all domain and subdomains certificate names](#getting-all-domain-and-subdomains-certificate-names)
   - [API](#api)
     - [hostames(pattern, \[options\])](#hostamespattern-options)
+  - [Changelog](#changelog)
   - [License](#license)
 
 ## How to install
@@ -59,6 +60,9 @@ More examples can be found at [examples](examples/).
     const { hostnames } = require('crtsh');
     await hostnames('%.example.org', { axiosConfig: { proxy: { host: 'localhost', port: 8080 }}});
     ```
+
+## Changelog
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 License under MIT License.
