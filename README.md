@@ -1,4 +1,5 @@
 # node-crtsh
+[![Version npm](https://img.shields.io/npm/v/crtsh.svg)](https://www.npmjs.com/package/crtsh)
 [![Module type: CJS](https://img.shields.io/badge/module%20type-cjs-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
 [![License](https://img.shields.io/github/license/kucingbasah737/node-crtsh)](https://github.com/kucingbasah737/node-crtsh/blob/main/LICENSE)
 
