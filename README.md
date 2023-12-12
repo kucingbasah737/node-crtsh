@@ -12,7 +12,7 @@ Many people use this to enumerate subdomains.
   - [Usage](#usage)
     - [Getting all domain and subdomains certificate names](#getting-all-domain-and-subdomains-certificate-names)
   - [API](#api)
-    - [hostames(pattern, \[options\])](#hostamespattern-options)
+    - [hostnames(pattern, \[options\])](#hostnamespattern-options)
   - [Changelog](#changelog)
   - [License](#license)
 
@@ -45,7 +45,7 @@ const { hostnames: crtshHostnames } = require('crtsh');
 More examples can be found at [examples](examples/).
 
 ## API
-### hostames(pattern, [options])
+### hostnames(pattern, [options])
 * pattern (string, required):
   
   For example, if you want to list certificate names for "example.org" domain and subdomains, you can use "%.example.org".
