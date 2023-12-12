@@ -1,0 +1,35 @@
+{
+  "name": "crtsh",
+  "version": "0.0.1",
+  "description": "Query crt.sh from nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucingbasah737/node-crtsh.git"
+  },
+  "keywords": [
+    "crt.sh",
+    "crtsh",
+    "node.js",
+    "nodejs"
+  ],
+  "author": "Kucing Basah 737 <kucingbasah737@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kucingbasah737/node-crtsh/issues"
+  },
+  "homepage": "https://github.com/kucingbasah737/node-crtsh#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.2",
+    "semistandard": "^17.0.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
