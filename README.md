@@ -50,19 +50,20 @@ More examples can be found at [examples](examples/).
 
 ## API
 ### hostnames(pattern, [options])
-* pattern (string, required):
+* **pattern** (string, required):
   
   For example, if you want to list certificate names for "example.org" domain and subdomains, you can use "%.example.org".
 
-* options (object, optional):
+* **options** (object, optional):
 
-  * axiosConfig: config to pass to axios.
+  * **axiosConfig**: optional config to pass to axios.
+  * **proxy**: optional proxy to use, eg: "localhost:8080"
 
     For example, if you want to use proxy when calling crt.sh, you can use syntax like this:
 
     ```javascript
     const { hostnames } = require('crtsh');
-    await hostnames('%.example.org', { axiosConfig: { proxy: { host: 'localhost', port: 8080 }}});
+    await hostnames('%.example.org', { proxy: 'localhost:8080' });
     ```
 
 ## Changelog
