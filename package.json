@@ -41,5 +41,10 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "auto-changelog": {
+    "commitUrl": "https://github.com/kucingbasah737/node-crtsh/commit/{id}",
+    "compareUrl": "https://github.com/kucingbasah737/node-crtsh/compare/{from}...{to}",
+    "issueUrl": "https://github.com/kucingbasah737/node-crtsh/issues/{id}"
   }
 }
